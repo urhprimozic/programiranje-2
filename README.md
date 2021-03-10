@@ -1,0 +1,2 @@
+# programiranje-2
+TRAPS ARE NOT GAY BY DEFINITION

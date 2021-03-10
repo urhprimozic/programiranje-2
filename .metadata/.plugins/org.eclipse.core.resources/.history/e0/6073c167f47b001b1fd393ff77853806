@@ -1,0 +1,14 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Graf {
+	private int stevec;
+	protected Map<String, Tocka> tocke;
+	public Graf() {
+		stevec  = 0;
+		tocke = new HashMap<String, Tocka>();
+	}
+	public String tocka(String ime) {
+		return tocke.get(ime);
+	}
+}

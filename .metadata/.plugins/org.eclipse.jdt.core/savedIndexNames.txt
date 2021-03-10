@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/mnt/Podatki/Documents/fmf/programiranje-2/programiranje-2/.metadata/.plugins/org.eclipse.jdt.core

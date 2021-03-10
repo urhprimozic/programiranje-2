@@ -1,0 +1,23 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Graf {
+	private int stevec;
+	protected Map<String, Tocka> tocke;
+	public Graf() {
+		stevec  = 0;
+		tocke = new HashMap<String, Tocka>();
+	}
+	public String tocka(String ime) {
+		if (tocke.containsKey(ime)) {
+			return tocke.get(ime).ime;
+		}
+		return null;
+	}
+	public boolean povezava(Tocka t1, Tocka t2) {
+		return t1.sosedi.contains(t2);
+	}
+	public Tocka dodajTocko(ime) {
+		
+	}
+}
